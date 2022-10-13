@@ -6,7 +6,7 @@ const router = express.Router();
 const UserSchema = require('./models/User.js')
 
 // Conectamos con la BD
-mongoose.connect("mongodb+srv://admin:admin750926@misionticcluster.qinbdxt.mongodb.net/test")
+mongoose.connect("")
 app.use(express.urlencoded({extended: true}))
 app.use(express.json())
 
